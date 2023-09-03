@@ -56,8 +56,8 @@ Before you begin, ensure you have met the following requirements:
 
 5. Postman Collection Also Added in Repo to Check API endpoints.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
