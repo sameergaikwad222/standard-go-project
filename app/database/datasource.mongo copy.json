@@ -1,0 +1,4 @@
+{
+  "MongoURL": "FULL_MONGO_URL_HERE",
+  "MongoDatabase": "MONGO_DATABASE"
+}

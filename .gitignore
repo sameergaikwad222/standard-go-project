@@ -1,0 +1,4 @@
+app/config/config.json
+app/database/datasource.mongo.json
+
+.vscode
