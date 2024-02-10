@@ -8,7 +8,7 @@ type Address struct {
 }
 
 type Sample struct {
-	Id        int     `json:"id" bosn:"id"`
+	Id        int     `json:"id" bson:"id"`
 	FirstName string  `json:"firstName" bson:"firstName"`
 	LastName  string  `json:"lastName" bson:"lastName"`
 	Age       uint16  `json:"age" bson:"age"`
