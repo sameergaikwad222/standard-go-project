@@ -116,6 +116,7 @@ func (s *SampleController) BulkInsertSamples(ctx *gin.Context) {
 	var samples []interface{}
 	if err := ctx.ShouldBindJSON(&samples); err != nil {
 		ctx.JSON(http.StatusBadGateway, gin.H{"error": err})
+		return
 	}
 	insertedIds, err := s.SampleRepository.InsertMultipleSamples(ctx, samples)
 	if err != nil {
